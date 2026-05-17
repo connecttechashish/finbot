@@ -1,0 +1,71 @@
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# Environment Variables / Sensitive Data
+.env
+app/.env
+data/users.json
+
+# Python Cache and Meta Data
+__pycache__/
+*.py[cod]
+*$py.class
+finbot.egg-info/
+.pytest_cache/
+.tox/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Vector Data Storage
+data/qdrant_storage/
+
+# Node.js / Frontend
+node_modules/
+.next/
+dist/
+build/
+.npm/
+# .env*.local (if you use environment variables in frontend)
+frontend/.env*.local
+.pnp.*
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Models / Weights (If downloading ML models locally)
+*.pt
+*.pth
+*.safetensors
+*.bin
+*.onnx
+*.ckpt
